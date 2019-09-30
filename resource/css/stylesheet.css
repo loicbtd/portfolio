@@ -7,3 +7,11 @@
         height: auto;
     }
 }
+
+.profile-picture {
+    width: 150px;
+    float: left;
+    margin-right: 15px;
+    padding-top: 7px;
+    border-radius: 50%;
+}
