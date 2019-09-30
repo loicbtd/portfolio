@@ -2,24 +2,48 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="resource/css/stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
     <title>Loïc Bertrand - Portfolio</title>
 </head>
 <body>
 <nav class=black>
     <div class="nav-wrapper">
+        <button href="#" data-target="slide-out" class="btn black sidenav-trigger">
+            <i class="material-icons">menu</i>
+        </button>
         <a href="#" class="brand-logo center">
-            <img src="resource/img/loicbertrand.png" width="140" height="60" alt="">
+            <img  src="resource/img/loicbertrand.png" width="120" height="60" alt="logo">
         </a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
         </ul>
     </div>
 </nav>
-<div class="container">
+<ul id="slide-out" class="sidenav">
+    <li><div class="user-view">
+        <div class="background">
+            <img src="images/office.jpg">
+        </div>
+        <a href="#user"><img class="circle" src="images/yuna.jpg"></a>
+        <a href="#name"><span class="white-text name">John Doe</span></a>
+        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+</ul>
+<div class="parallax-container">
+    <div class="parallax"><img src="resource/img/parallax_linux.jpg"></div>
     <div class="row">
         <div class="col s12 m6 l4">
             <div class="card medium z-depth-3">
@@ -68,8 +92,6 @@
         </div>
     </div>
 </div>
-
-
 
 <div id="modal1" class="modal">
     <div class="video-container">
