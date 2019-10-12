@@ -2,16 +2,12 @@
     font-family: bold;
 }
 
-@media only screen and (max-width: 800px) {
-    .parallax-container {
-        height: auto;
-    }
+.parallax-container {
+    height: auto;
 }
 
-@media only screen and (min-width: 800px) {
-    .card {
-        height: 480px!important;
-    }
+.card {
+    height:500px!important;
 }
 
 .profile-picture {
