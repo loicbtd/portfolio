@@ -27,3 +27,8 @@
 p {
     text-align: justify;
 }
+
+.link {
+    font-size: 1.3em;
+    line-height: 2em;
+}
